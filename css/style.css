@@ -1,37 +1,75 @@
- 
 
- 
 
-body {background-color:  #1A1A1D; position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;}
+body {
 
- 
-h1{ color: #83283b; font-size: 40px; font-family: 'Signika', sans-serif; padding-left:100px; padding-top:100px; padding-right:200px; padding-bottom:50px;}
-
-h2 { color: #70514E; font-size: 20px; font-family: 'Signika', sans-serif; padding-left:100px; padding-top:10px;}
-h2:link { color: #70514E; font-size: 20px; font-family: 'Signika', sans-serif; padding-left:100px; padding-top:10px;}
-h2:visited { color: #70514E; font-size: 20px; font-family: 'Signika', sans-serif; padding-left:100px; padding-top:10px;}
-h2:hover { color: #70514E; font-size: 20px; font-family: 'Signika', sans-serif; padding-left:100px; padding-top:10px;}
-
-<style>
-    #link a { color: #70514E; font-size: 20px; font-family: 'Signika', sans-serif; padding-right:50px;padding-top:10px; }
-    #link a:link { color:#70514E;  font-size: 20px; font-family: 'Signika', sans-serif; padding-right:50px;padding-top:10px;}
-    #link a:visited { color:#70514E;  font-size: 20px; font-family: 'Signika', sans-serif; padding-right:50px;padding-top:10px; }
-    #link a:hover { color:#C66C27;  font-size: 20px; font-family: 'Signika', sans-serif; padding-right:50px;padding-top:10px; }
-    #link a:active { color:#70514E;  font-size: 20px; font-family: 'Signika', sans-serif; padding-right:50px;padding-top:10px;}
-</style>
-
- 
-
-#content {
-    position: relative;
+      font-family: 'Slabo 27px', serif;
+	  background-color:#0E0905;
+	 }
+	 
+a{
+	
+	text-decoration: none;
 }
-#content img {
-    position: absolute;
-    top: 100px;
-    right: 100px;
+a:link { COLOR:#772723; TEXT-DECORATION: none; }
+a:visited { COLOR:#772723; TEXT-DECORATION: none; }
+a:active { COLOR:#772723; TEXT-DECORATION: none; }
+a:hover { COLOR: #5D4342; TEXT-DECORATION: none; }
+
+h1{
+	COLOR: #E79030;
+	display:block;
+	position:relative;
+	  margin: 0 auto;
+  top: 60px;
+
+	
+}
+
+img{max-width:100%;
+height:auto;}
+
+.small {
+ display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
 
 }
+
+.heads{
+
+}
+.list{
+	
+	display:block;
+	position:relative;
+	  margin: 0 auto;
+	
+}
+
+@media (max-width: 680px) {
+      .small{
+		  left:20px;
+		  width:85%;
+		  top:30px;
+	  }
+	  .list{  padding: 0 20px;
+  padding-top:80px;}
+  .heads{padding:0 20px;}
+    }
+
+@media (min-width: 681px) {
+           .small{
+		  left:400px;
+		  top:-260px;
+		  width:100%;
+	  }
+	    .list{  padding: 0 40px;
+  padding-top:80px;}
+  .heads{padding:0 40px;}
+    }
+    }
+	
+	
+	
